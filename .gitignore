@@ -1,0 +1,80 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.coveragerc
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================================
+# Project-specific
+# ============================================================
+
+# Output videos (can be large; regenerate by running the pipeline)
+output/
+
+# YOLO model weights (download separately)
+*.pt
+*.onnx
+*.torchscript
+
+# EasyOCR downloaded model cache
+.EasyOCR/
+
+# Input / scratch videos (keep local only)
+*.webm
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ============================================================
+# Editors & IDEs
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Jupyter / IPython
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================
+# Logs & temporary files
+# ============================================================
+*.log
+*.tmp
+*.bak
